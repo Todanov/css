@@ -1,0 +1,401 @@
+
+/* html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    display: block;
+} */
+
+/* Разбивка на сетку*/
+body{
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+    padding-right: 0 !important;
+    color: #29303b;
+    font-size: 15px;
+    display: block;
+    grid-template-areas: "header header header"
+                         "main main main"
+                         "section section section"
+                         "cards cards cards"
+                        "footer footer footer";
+}
+/* .gray-bg {
+   background-color:  #f7f8fa;
+}
+.navbar{
+    grid-area: header;
+    height: 65.2px;
+}
+.main {
+    grid-area: main;
+    background-color: aqua;
+}
+.section{
+    grid-area: section;
+    background-color: yellow;
+}
+.cards{
+    grid-area:cards;
+    background-color: blue;
+}
+.footer{
+    background-color: red;
+} */
+/* header*/
+.navbar .container{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.ikon {
+    height: 35px;
+    vertical-align: middle;
+    border-style: none;
+    padding: 5px;
+}
+ 
+.nav {
+    display: flex;
+    justify-content: start;
+    padding-right: 50px;
+}
+.primary-nav {
+    display: flex;
+}
+.nav-courses{
+    font-size: 13px;
+    line-height: 15px; 
+    color: rgba(80, 87, 99, 1);
+}
+.burger-menu{
+    color: rgba(80, 87, 99, 1);
+    height: 12.5px;
+    margin-top: 19px;
+    margin-right: 4px;
+}
+.input-serch{
+    display: flex;
+}
+.search{
+    width: 734px;
+    height: 45px;
+    margin-top:5px;
+    background: #F2F3F5;
+    border: 1px solid #F2F3F5;
+   
+}
+.btn{
+    display: flex;
+    justify-content: center;   
+     height: 18px;
+    width: 18px;
+    border:none;
+    height: 45px;
+    width: 45px;
+    margin-top: 5px;
+    background: #F2F3F5;
+    border: 1px solid #F2F3F5;
+}
+.btn:hover {
+    background: #EC5252;
+}
+.btn-search{
+    height: 16px;
+    width:15px;
+    fill:#EC5252;
+    border:none;
+    margin-top:12px;
+    color: #EC5252;
+}
+.order{
+    width:26px;
+    height:25.67px;
+    margin:15px;
+    color:#EC5252;
+}
+.secondary-nav{
+    margin:-8px;
+}
+.menu-nav{
+    display: flex;
+    justify-content:space-around ;
+}
+.nav-li{
+    display: flex;
+    align-items: center;
+    margin-right:10px;
+    margin-bottom: 10px;
+}
+.nav-li-a{
+border-radius: 1px solid black;
+background: #FFFFFF;
+border: 1px solid #550055;
+box-sizing: border-box;
+width: 76px;
+height: 45px;
+text-align: center;
+text-decoration: none;
+padding-top: 10px;
+color:  rgba(80, 87, 99, 1);
+}
+
+
+/*main */
+.main {
+    background-image: url(/img/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg);
+    height: 214px;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+.main-learn{
+    font-size: 44px;
+    color: #FFFFFF;
+    padding-left:30px ;
+    height: 20px;
+}
+.main-learn-p{
+    font-size: 14px;
+    color: #FFFFFF;
+    width: 368px;
+    height: 38px;
+    padding-left:30px;
+}
+.main-search{
+    display: flex;
+    margin-bottom: 7px;
+}
+.search-top{
+    width: 368px;
+    height: 45px;
+    margin-top:5px;
+    background: #F2F3F5;
+    border: 1px solid #F2F3F5;
+    background: #F2F3F5;
+    border: 1px solid #F2F3F5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 30px;
+    padding-bottom:7px;
+}
+.search-btn{
+    display: flex;
+    justify-content: center;   
+     height: 18px;
+    width: 18px;
+    border:none;
+    height: 45px;
+    width: 45px;
+    margin-top: 5px;
+    background: #F2F3F5;
+    border: 1px solid #F2F3F5;
+}
+.search-btn:hover {
+    background: #EC5252;
+}
+
+
+.search-main-btn{
+    height: 16px;
+    width:15px;
+    fill:#EC5252;
+    border:none;
+    margin-top:12px;
+    color: #EC5252;
+}
+
+/*section*/
+
+.section{
+    height: 90px;
+    background: linear-gradient(0deg, rgba(236, 82, 82, 0.45), rgba(236, 82, 82, 0.45)), #6E1A52;
+}
+
+.section-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+ 
+}
+.section-one{
+    display: flex;
+    height: 48px;
+    width:317px;
+    margin-left:30px
+}
+.circle{
+    width:45.53px;
+    height:48px;
+    padding-top: 12px;
+    margin-right: 8px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.text-one{
+    display: flex;
+    font-size: 14px;
+    color:#FFFFFF;
+    font-weight: normal;
+    margin-top: 15px;
+    
+}
+.text-two{
+    font-size: 14px;
+    color:#FFFFFF;
+    font-weight: normal;
+    margin-top: -10px;
+}
+.section-two{
+    display: flex;
+    height: 48px;
+    width:317px;
+    margin-left:200px
+}
+.section-three{
+    display: flex;
+    height: 48px;
+    width:317px;
+    margin-left:200px
+}
+
+/*Cards*/
+
+.cards{
+    margin-top:80px;
+    background-color: #F6F6F6;
+}
+.cards-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    color:  rgba(80, 87, 99, 1);
+    font-size: 20px;
+    margin-left: 32px;
+    height: 1px;
+}
+
+.container-fist{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    margin-right:60px;
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:214px;
+    margin: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.card-img{
+    width: 214px;
+    height: 214px;
+}
+.card-name{
+    font-size: 15px;
+    color: #29303B;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+}
+.card-info{
+    font-weight: normal;
+    font-size: 12px;
+    color:#686F7A;
+    text-align: center;
+    margin-right:20px;
+}
+.card-line{
+    display: flex;
+    margin-left:5px;
+}
+.card-star{
+    width:12.38px;
+    height: 11.83px;
+    margin-left:9px;
+    /* background: #F4C150;
+border: 1px solid #F4C150;
+box-sizing: border-box; */
+}
+
+
+.card-compare-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.card-footer-img{
+    width:16.25px;
+    height:13.14px;
+    margin-top: 7px;
+    margin-left:11px
+}
+.card-footer-text{
+    color: #4D98AD;
+    font-size: 13px;
+}
+.card-money{
+    display: flex;
+    justify-content: space-between;
+}
+.card-sale{
+    font-size: 13px;
+    color:#686F7A;
+    margin-right: 6px;
+}
+.card-price{
+    font-size: 18px;
+    color: #000;
+    margin-right: 5px;
+}
+
+.cards-two{
+    background-color: #F6F6F6;
+}
+
+.footer{
+    height: 65px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+.container-left{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+}
+.footer-text{
+    font-size: 15px;
+    color: #007791;
+}
+.container-right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right:90px
+}
+.foo-li{
+    display: flex;
+    align-items: center;
+    margin-right:10px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+.foo-li-a{
+   text-decoration: none;
+   color:#007791;
+   font-size:12px; 
+}
